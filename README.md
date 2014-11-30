@@ -6,3 +6,26 @@ This is a simple starter package to get up and running with Grunt [Tenon](http:/
 2. Add your Tenon.io API Key to the Gruntfile.js on line #19
 3. From the comman line run ``grunt`` to start up Grunt.
 4. Make edits to the index.html file and watch Grunt-Tenon work its magic.  Keep you eyes on the terminal for output from the Tenon plugin.
+
+## Basic Config
+```
+tenon: {
+  options: {
+    key: 'you api key here', // ADD YOUR API KEY HERE
+    filter: [31, 54],
+    level: 'AA' // AA OR AAA
+  },
+  all: {
+    options: {
+      saveOutputIn: 'allHtml.json',
+      snippet: true,
+      asyncLim: 2
+    },
+    src: ['index.html']
+  },
+  index: {
+    src: ['index.html']
+  }
+}
+```
+
