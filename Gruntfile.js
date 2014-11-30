@@ -27,9 +27,6 @@ module.exports = function (grunt) {
           asyncLim: 2
         },
         src: ['index.html']
-      },
-      index: {
-        src: ['index.html']
       }
     }
 
