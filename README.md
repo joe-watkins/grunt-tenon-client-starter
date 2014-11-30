@@ -7,7 +7,7 @@ This is a simple starter package to get up and running with Grunt [Tenon](http:/
 3. From the comman line run ``grunt`` to start up Grunt.
 4. Make edits to the index.html file and watch Grunt-Tenon work its magic.  Keep you eyes on the terminal for output from the Tenon plugin.
 
-## Basic Config
+## Basic Grunt Settings
 ```
 tenon: {
   options: {
